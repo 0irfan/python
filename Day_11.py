@@ -1,6 +1,12 @@
 # introduction to strings in python
 name = "Irfan"
 d_name = 'Irfan'
+m_string='''How are you
+man
+i am good
+that's sound good
+'''
+print(m_string)
 
 # strings are immutable in python
 '''name[0] = "i"''' # you will get error
