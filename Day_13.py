@@ -20,4 +20,3 @@ print(a.isalnum())
 print(a.isspace())
 # check if the string is a digit
 print(a.isdigit())
-
