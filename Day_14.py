@@ -16,5 +16,6 @@ def replace_domain_name(email,old_domain,new_domain):
         index = email.index("@"+old_domain)
         new_email = email[:index] + "@" + new_domain
         return new_email
+    return email
     
 print(replace_domain_name("irfanali66693@gmail.com","gmail.com",'bnr360.net'))
